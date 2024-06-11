@@ -13,6 +13,6 @@ public interface ClienteService {
     List<Cliente> buscarTodosClientes();
 
     Cliente atualizar(Long id, Cliente cliente);
-
-    Cliente deletar(Long id, Cliente cliente);
 }
+
+

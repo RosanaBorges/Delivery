@@ -50,9 +50,4 @@ public class ImplClienteService implements ClienteService {
         }
     }
 
-    @Override
-    public Cliente deletar(Long id, Cliente cliente) {
-        return null;
-    }
-
 }
