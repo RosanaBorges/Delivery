@@ -51,5 +51,4 @@ public class Cliente {
     @Pattern(regexp = "\\d{5}-\\d{3}", message = "CEP deve estar no formato 99999-999")
     private String cep;
 
-    private Boolean clienteAtivo;
 }
